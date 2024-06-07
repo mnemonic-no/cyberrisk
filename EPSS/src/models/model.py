@@ -17,7 +17,10 @@ class EPSS(ABC):
         self.modules = []
         for m in selected_modules:
             Module = dynamic_import("src.modules", m)
-            self.modules.append(Module(self.lm))
+            if m in lm_dependent_modules:
+                self.modules.append(Module(self.lm))
+            else:
+                self.modules.append(Module())
         self.nvd_features = config.nvd_features
 
     @abstractmethod
