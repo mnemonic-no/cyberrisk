@@ -79,7 +79,7 @@ pathy==0.10.1
 Pillow==10.3.0
 preshed==3.0.8
 Protego==0.2.1
-protobuf==4.22.3
+protobuf==4.25.8
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
 pybind11==2.10.4
