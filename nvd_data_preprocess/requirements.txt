@@ -9,7 +9,7 @@ scipy==1.12.0
 seaborn==0.13.2
 sentence-transformers==2.4.0
 tokenizers==0.19.1
-torch==2.2.1
+torch==2.7.1
 tqdm==4.66.3
 transformers==4.48.0
 urllib3==2.2.2
